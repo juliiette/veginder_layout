@@ -298,6 +298,13 @@ h4 {
 	color: white;
 
 	z-index: 1000;
+	transition: .25s linear;
+
+}
+
+.membership__card:hover {
+	background: rgba(119, 163, 123, 0.6);
+	transition: .25s linear;
 }
 
 .membership__card p {
@@ -308,6 +315,7 @@ h4 {
 	display: inline-block;
 	width: 100%;
 }
+
 
 .membership__card img {
 	margin-top: 140px;
